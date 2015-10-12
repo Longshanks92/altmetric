@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root :to => "pages#home"
-  get "pages/programming", :as => 'programming'
-  get "pages/refactoring", :as => 'refactoring'
+  get '/pages/programming', to: 'pages#programming', as: 'programming'
+  get '/pages/refactoring', to: 'pages#refactoring', as: 'refactoring'
 end

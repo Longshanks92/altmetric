@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+gem 'simple-json', '~> 1.0.2'
+gem "rspec", "~> 3.1.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
