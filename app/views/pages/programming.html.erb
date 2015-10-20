@@ -1,6 +1,6 @@
 <h1>Programming Test</h1>
-<% dataFileOne = File.read("lib/resources/articles.csv") %>
-<% keys = ['DOI', 'Title', 'ISSN' ] %>
-<%= CSV.parse(dataFileOne).map {|a| Hash[ keys.zip(a) ] } %>
-<% dataFileTwo = File.read("lib/resources/journals.csv") %>
-<% dataFilethree = File.read("lib/resources/authors.json") %>
+<% # require "result" %>
+<% require "csv" %>
+<% require "json" %>
+<% # csv = File.open('lib/resources/articles.csv').read %>
+<% #  CSV.parse(csv).to_json %>

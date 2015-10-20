@@ -13,3 +13,4 @@ class Fixnum
   end
 end
 
+#note this is bad practice as it can't be used with other languages
